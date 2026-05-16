@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" role="img" aria-label="Data analyst avatar placeholder">
+<defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#ec4899"/><stop offset=".55" stop-color="#8b5cf6"/><stop offset="1" stop-color="#22d3ee"/></linearGradient></defs>
+<rect width="300" height="300" rx="78" fill="url(#g)"/>
+<circle cx="150" cy="110" r="48" fill="#fff" opacity=".92"/>
+<path d="M68 248c18-55 55-84 82-84s64 29 82 84" fill="#fff" opacity=".92"/>
+<g fill="none" stroke="#fff" stroke-linecap="round" opacity=".32" stroke-width="10"><path d="M38 58h72M190 58h70M38 86h42M220 86h40"/></g>
+</svg>

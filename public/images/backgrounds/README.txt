@@ -1,0 +1,1 @@
+Put downloaded SVG backgrounds, abstract shapes, and custom hero images here. Use optimized SVG/PNG/WebP files.

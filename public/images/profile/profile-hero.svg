@@ -1,0 +1,11 @@
+<svg width="900" height="1100" viewBox="0 0 900 1100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="1100" rx="72" fill="#082f62"/>
+  <circle cx="230" cy="190" r="220" fill="#38bdf8" fill-opacity=".26"/>
+  <circle cx="760" cy="230" r="260" fill="#2563eb" fill-opacity=".28"/>
+  <path d="M94 740C179 610 300 544 457 544C613 544 738 610 813 740V1012H94V740Z" fill="#e0f2fe"/>
+  <circle cx="452" cy="377" r="162" fill="#dbeafe"/>
+  <path d="M280 382C318 272 388 218 490 220C565 222 617 257 648 325C609 310 572 315 536 339C485 374 439 376 397 346C351 313 312 325 280 382Z" fill="#0b1f3f"/>
+  <path d="M160 882H740" stroke="#38bdf8" stroke-width="34" stroke-linecap="round"/>
+  <path d="M201 948H698" stroke="#2563eb" stroke-width="24" stroke-linecap="round"/>
+  <text x="450" y="1035" text-anchor="middle" fill="#082f62" font-family="Arial, sans-serif" font-size="46" font-weight="800">Replace with Patricia photo</text>
+</svg>

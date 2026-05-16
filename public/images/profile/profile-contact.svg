@@ -1,0 +1,8 @@
+<svg width="900" height="1100" viewBox="0 0 900 1100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="1100" rx="72" fill="#0f172a"/>
+  <path d="M0 725C165 610 314 590 448 666C594 748 745 728 900 606V1100H0V725Z" fill="#1d4ed8"/>
+  <circle cx="450" cy="350" r="166" fill="#dbeafe"/>
+  <path d="M285 353C325 250 400 204 510 214C581 221 632 262 664 337C609 315 563 323 527 361C487 403 438 398 381 346C340 309 308 312 285 353Z" fill="#020617"/>
+  <path d="M105 726C184 598 299 534 450 534C601 534 716 598 795 726V934H105V726Z" fill="#38bdf8"/>
+  <text x="450" y="875" text-anchor="middle" fill="#061426" font-family="Arial, sans-serif" font-size="42" font-weight="800">Contact Photo Placeholder</text>
+</svg>

@@ -1,0 +1,10 @@
+<svg width="900" height="1100" viewBox="0 0 900 1100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="1100" rx="72" fill="#eff6ff"/>
+  <circle cx="180" cy="220" r="180" fill="#bfdbfe"/>
+  <circle cx="760" cy="170" r="220" fill="#38bdf8" fill-opacity=".38"/>
+  <rect x="110" y="770" width="680" height="190" rx="48" fill="#1d4ed8"/>
+  <circle cx="450" cy="382" r="166" fill="#dbeafe"/>
+  <path d="M291 384C326 288 395 239 497 239C562 239 614 272 653 338C602 332 566 346 543 378C505 430 452 427 384 370C347 339 316 344 291 384Z" fill="#082f62"/>
+  <path d="M119 735C194 607 306 543 455 543C604 543 716 607 791 735V900H119V735Z" fill="#0ea5e9"/>
+  <text x="450" y="866" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="44" font-weight="800">About Photo Placeholder</text>
+</svg>
