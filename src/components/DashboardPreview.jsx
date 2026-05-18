@@ -157,7 +157,11 @@ export default function DashboardPreview() {
 
                     <CartesianGrid strokeDasharray="3 3" stroke="rgba(148, 163, 184, .18)" />
                     <XAxis dataKey="month" stroke="#9ca3af" />
-                    <YAxis stroke="#9ca3af" />
+                    {/* <YAxis stroke="#9ca3af" /> */}
+                    <YAxis
+                      stroke="#9ca3af"
+                      tickFormatter={(value) => `$${value}K`}
+                    />
                     {/* <Tooltip
                       contentStyle={{
                         background: "#0f172a",
@@ -169,6 +173,7 @@ export default function DashboardPreview() {
                       contentStyle={tooltipContentStyle}
                       labelStyle={tooltipLabelStyle}
                       itemStyle={tooltipItemStyle}
+                      formatter={(value) => [`$${value}K`, "Revenue"]}
                     />
                     <Area
                       type="monotone"
@@ -186,7 +191,11 @@ export default function DashboardPreview() {
                   <BarChart data={categoryRevenue} margin={{ top: 10, right: 18, left: 0, bottom: 0 }}>
                     <CartesianGrid strokeDasharray="3 3" stroke="rgba(148, 163, 184, .18)" />
                     <XAxis dataKey="category" stroke="#9ca3af" />
-                    <YAxis stroke="#9ca3af" />
+                    {/* <YAxis stroke="#9ca3af" /> */}
+                    <YAxis
+                      stroke="#9ca3af"
+                      tickFormatter={(value) => `${value}K`}
+                    />
                     {/* <Tooltip
                       contentStyle={{
                         background: "#0f172a",
@@ -194,10 +203,16 @@ export default function DashboardPreview() {
                         borderRadius: 14
                       }}
                     /> */}
+                    {/* <Tooltip
+                      contentStyle={tooltipContentStyle}
+                      labelStyle={tooltipLabelStyle}
+                      itemStyle={tooltipItemStyle}
+                    /> */}
                     <Tooltip
                       contentStyle={tooltipContentStyle}
                       labelStyle={tooltipLabelStyle}
                       itemStyle={tooltipItemStyle}
+                      formatter={(value) => [`${value}K`, "Sales"]}
                     />
                     <Bar dataKey="value" radius={[14, 14, 4, 4]} fill="#0ea5e9" />
                   </BarChart>
@@ -214,10 +229,16 @@ export default function DashboardPreview() {
                         borderRadius: 14
                       }}
                     /> */}
+                    {/* <Tooltip
+                      contentStyle={tooltipContentStyle}
+                      labelStyle={tooltipLabelStyle}
+                      itemStyle={tooltipItemStyle}
+                    /> */}
                     <Tooltip
                       contentStyle={tooltipContentStyle}
                       labelStyle={tooltipLabelStyle}
                       itemStyle={tooltipItemStyle}
+                      formatter={(value, name) => [`${value}%`, name]}
                     />
 
                     <Pie

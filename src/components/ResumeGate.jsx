@@ -25,7 +25,7 @@ export default function ResumeGate() {
       name: form.name || "Portfolio visitor",
       email: form.email,
       request_type: "Resume view",
-      source: "Patricia Valentine Portfolio"
+      source: "My Official Analytics Portfolio"
     };
 
     if (profile.resume.formEndpoint) {
@@ -129,7 +129,7 @@ export default function ResumeGate() {
               {message && <p className={`form-message ${status}`}>{message}</p>}
               <div className="resume-viewer-toolbar">
                 <span>Preview mode</span>
-                <small>No custom download button shown</small>
+                {/* <small>Please contact me for any references needed.</small> */}
               </div>
               <iframe
                 className="resume-viewer"

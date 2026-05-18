@@ -7,7 +7,7 @@ export const skillGroups = [
   {
     title: "Database & Querying",
     accent: "cyan",
-    skills: ["SQL", "MySQL", "Microsoft SQL Server", "Google BigQuery"]
+    skills: ["SQL", "MySQL", "Microsoft SQL Server", "Google BigQuery", "API Integration", "Postman"]
   },
   {
     title: "Visualization",
@@ -15,14 +15,14 @@ export const skillGroups = [
     skills: ["Power BI", "Tableau", "Looker Studio", "Matplotlib", "Seaborn", "Excel Dashboards"]
   },
   {
-    title: "Web & Portfolio Build",
+    title: "Development & Deployment",
     accent: "sky",
-    skills: ["React", "JavaScript", "GitHub", "Responsive Design"]
+    skills: ["React", "JavaScript", "GitHub", "Git", "Responsive Design", "HTML", "CSS", "Docker"]
   },
   {
     title: "Statistics",
     accent: "green",
-    skills: ["Descriptive Statistics", "Hypothesis Testing", "Regression", "Inference", "Probability"]
+    skills: ["Descriptive Statistics", "Hypothesis Testing", "Regression", "Inference", "A/B Testing", "Probability"]
   },
   {
     title: "Professional Strengths",

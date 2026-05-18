@@ -29,7 +29,8 @@ export default function Hero() {
           <div className="pv-mobile-portrait" aria-label={`${profile.name} portrait`}>
             <img src={asset(profile.photos.hero)} alt={`${profile.name} portrait`} />
             <div>
-              <span>Business Intelligence Analyst</span>
+              {/* <span>Business Intelligence Analyst</span> */}
+              <span>{profile.professionalTitle}</span>
               <strong>{profile.name}</strong>
               <p>Dashboards • Data storytelling • Business insights</p>
             </div>
@@ -45,7 +46,7 @@ export default function Hero() {
           </div>
 
           <div className="tool-ticker" aria-label="Core analytics tools">
-            {["Python", "SQL", "Power BI", "Tableau", "Excel", "BigQuery", "React"].map((tool) => (
+            {["SQL", "Excel", "Python", "Power BI", "Tableau", "BigQuery", "n8n", "GCP", "Google WorkSpace", "Git"].map((tool) => (
               <span key={tool}>{tool}</span>
             ))}
           </div>
@@ -65,7 +66,8 @@ export default function Hero() {
               <img src={asset(profile.photos.hero)} alt={`${profile.name} portrait`} />
 
               <div className="pv-portrait-caption">
-                <span>Business Intelligence Analyst</span>
+                {/* <span>Business Intelligence Analyst</span> */}
+                <span>{profile.professionalTitle}</span>
                 <strong>{profile.name}</strong>
                 <p>Dashboards • Data storytelling • Business insights</p>
               </div>
@@ -84,7 +86,8 @@ export default function Hero() {
 
             <div className="pv-dashboard-header">
               <div>
-                <span>Decision intelligence studio</span>
+                {/* <span>Decision intelligence studio</span> */}
+                <span>Executive Analytics Workspace</span>
                 <strong>Revenue Performance</strong>
               </div>
             </div>
@@ -92,12 +95,13 @@ export default function Hero() {
             <div className="pv-metric-grid">
               <div className="pv-metric-card">
                 <span>Projects</span>
-                <strong>9+</strong>
-                <small>Dashboards built</small>
+                <strong>84+</strong>
+                {/* <small>Dashboards built</small> */}
+                <small>Delivered</small>
               </div>
               <div className="pv-metric-card hot">
                 <span>Rows</span>
-                <strong>84K</strong>
+                <strong>500K+</strong>
                 <small>Analyzed</small>
               </div>
               <div className="pv-metric-card">

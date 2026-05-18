@@ -10,7 +10,8 @@ export default function Skills() {
           <span className="section-kicker">Core Skills</span>
           <h2>My Analytics Toolkit.</h2>
           <p>
-            From data cleaning and querying to visualization and dashboard design, these are the tools I use to transform raw data into actionable insights.
+            {/* From data cleaning and querying to visualization and dashboard design, these are the tools I use to transform raw data into actionable insights. */}
+            From extracting and cleaning data to querying databases, integrating APIs, building dashboards, and deploying projects, these are the tools I use to turn complex data into meaningful business insights.
           </p>
         </div>
 

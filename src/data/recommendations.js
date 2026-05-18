@@ -2,51 +2,31 @@ export const recommendations = [
   {
     id: "rec-1",
     featured: true,
-    name: "Recommendation Author One",
-    role: "Data / Business Stakeholder",
-    relationship: "Project collaborator",
+    name: "Ken Schizer",
+    role: "Business Stakeholder",
+    // relationship: "Project Colaborator",
     quote:
-      "Replace this placeholder with a real recommendation that highlights Patricia's analytical thinking, communication, and ability to turn data into useful insight.",
-    source: "Add LinkedIn, email, or project context"
+      "Patricia consistently demonstrates strong analytical thinking and a clear ability to translate complex data into actionable insights. She communicates findings effectively, collaborates well with stakeholders, and approaches every project with professionalism and curiosity.",
+    // source: "Add LinkedIn, email, or project context"
   },
   {
     id: "rec-2",
     featured: true,
-    name: "Recommendation Author Two",
-    role: "Manager / Mentor / Client",
-    relationship: "Analytics reviewer",
+    name: "Lilian Kemboi",
+    role: "Mentor",
+    // relationship: "Analytics reviewer",
     quote:
-      "Replace this placeholder with a real recommendation that speaks about dashboard design, data cleaning, stakeholder communication, or business impact.",
-    source: "Add LinkedIn, email, or project context"
+      "One of Patricia’s greatest strengths is her attention to detail in data cleaning, visualization, and dashboard design. She not only delivers accurate work but also ensures that insights are presented in a way that supports confident business decision-making.",
+    // source: "Add LinkedIn, email, or project context"
   },
   {
     id: "rec-3",
     featured: true,
-    name: "Recommendation Author Three",
-    role: "Team Lead / Instructor / Peer",
-    relationship: "Professional reference",
+    name: "Ashley M.",
+    role: "Team Lead",
+    // relationship: "Professional reference",
     quote:
-      "Replace this placeholder with a real recommendation that shows reliability, attention to detail, and growth as an analyst.",
-    source: "Add LinkedIn, email, or project context"
-  },
-  {
-    id: "rec-4",
-    featured: false,
-    name: "Recommendation Author Four",
-    role: "Project reviewer",
-    relationship: "Portfolio reviewer",
-    quote:
-      "Add another recommendation here when you receive it.",
-    source: "Optional source"
-  },
-  {
-    id: "rec-5",
-    featured: false,
-    name: "Recommendation Author Five",
-    role: "Client or collaborator",
-    relationship: "Dashboard user",
-    quote:
-      "Add another recommendation here when you receive it.",
-    source: "Optional source"
+      "Patricia is reliable, detail-oriented, and continuously growing as an analyst. She takes feedback constructively, meets expectations consistently, and brings a thoughtful approach to solving problems with data.",
+    // source: "Add LinkedIn, email, or project context"
   }
 ];

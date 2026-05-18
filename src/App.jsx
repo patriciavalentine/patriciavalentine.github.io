@@ -1,7 +1,6 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
-// import Stats from "./components/Stats";
 import Skills from "./components/Skills";
 import DashboardPreview from "./components/DashboardPreview";
 import Projects from "./components/Projects";
@@ -18,13 +17,12 @@ export default function App() {
       <Navbar />
       <main>
         <Hero />
-        {/* <Stats /> */}
         <About />
         <Skills />
         <Projects />
         <DashboardPreview />
         <ResumeGate />
-        {/* <Recommendations /> -- I will add this once I start getting Recommendations from other people */}
+        <Recommendations /> 
         <Blog />
         <Contact />
       </main>

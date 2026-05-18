@@ -26,10 +26,10 @@ export default function Recommendations() {
         <div className="section-heading split">
           <div>
             <span className="section-kicker">Recommendations</span>
-            <h2>Social proof for the way I work, communicate, and deliver insights.</h2>
+            <h2>What People Say About My Work.</h2>
           </div>
           <p>
-            Add real recommendations here from LinkedIn, clients, teammates, mentors, instructors, or project reviewers.
+            Recommendations from professionals, teammates, and mentors who have worked with me on projects involving data analysis, business intelligence, reporting, and insight-driven decision-making.
           </p>
         </div>
 
