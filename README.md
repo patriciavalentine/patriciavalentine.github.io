@@ -1,6 +1,6 @@
-# Patricia Valentine — Data Analytics Portfolio
+# Patricia Valentine - Analytics Portfolio
 
-Welcome to my personal data analytics portfolio built with **React + Vite**.
+Welcome to my personal portfolio built with **React + Vite**.
 
 This website showcases my analytics projects, dashboards, technical skills, resume, recommendations, and data storytelling work through a modern and responsive design.
 
