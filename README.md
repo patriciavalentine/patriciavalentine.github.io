@@ -4,7 +4,7 @@ Welcome to my personal portfolio built with **React + Vite**.
 
 This website showcases my analytics projects, dashboards, technical skills, resume, recommendations, and data storytelling work through a modern and responsive design.
 
-## Features
+## 📌Features
 
 - Light and dark mode
 - Interactive charts and dashboard previews
