@@ -23,7 +23,7 @@ export default function Contact() {
           <span className="section-kicker">Contact</span>
           <h2>Let&apos;s turn data into something useful.</h2>
           <p>
-            Open to analytics projects, dashboards, collaboration, and roles where clean insight and strong communication matter.
+            Open to analytics projects, collaboration, and roles where clean insight and strong communication matter.
           </p>
         </motion.div>
 

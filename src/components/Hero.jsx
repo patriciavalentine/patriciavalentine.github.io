@@ -46,7 +46,7 @@ export default function Hero() {
           </div>
 
           <div className="tool-ticker" aria-label="Core analytics tools">
-            {["SQL", "Excel", "Python", "Power BI", "Tableau", "BigQuery", "n8n", "GCP", "Google WorkSpace", "Git"].map((tool) => (
+            {["SQL", "Excel", "Python", "Power BI", "GCP"].map((tool) => (
               <span key={tool}>{tool}</span>
             ))}
           </div>
