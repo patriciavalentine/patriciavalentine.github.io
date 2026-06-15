@@ -17,12 +17,11 @@ export const profile = {
   oldPortfolio: "https://valepatricia16.wixsite.com/patricia-valentine",
 
   //  The number will be visible in the site code/link.
-  // Use international format without +, spaces, or dashes. Example Kenya format: "254700000000".
   whatsappNumber: "254700620032",
   whatsappPrefill:
     "Hi Patricia, I viewed your analytics portfolio and would like to connect about a data project.",
 
-  // Put your real photos in public/images/profile/ and update these paths.
+  // Images as put in public/images/profile/.
   photos: {
     // hero: "images/profile/profile-hero.svg",
     hero: "images/profile/profile-hero.jpg",
