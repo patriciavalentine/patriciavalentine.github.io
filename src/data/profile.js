@@ -29,7 +29,7 @@ export const profile = {
     contact: "images/profile/profile-contact.jpg"
   },
 
-  // Put your PDF at public/resume.pdf. This front-end gate is elegant, but not a true security wall.
+  // PDF at public/resume.pdf. This front-end gate is elegant, but not a true security wall.
   resume: {
     // file: "resume-placeholder.html",
     file: "resume.pdf",
