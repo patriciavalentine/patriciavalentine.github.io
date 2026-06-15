@@ -1,7 +1,7 @@
 export const profile = {
   name: "Patricia Valentine",
 
-  // Change these anytime to adjust your branding.
+  // To adjust the branding.
   // role appears in the navbar/footer. professionalTitle appears in the hero and resume areas.
   role: "The Analyst",
   professionalTitle: "Data / BI Analyst",
@@ -16,7 +16,7 @@ export const profile = {
   linkedin: "https://www.linkedin.com/in/patricia-valentine-danga",
   oldPortfolio: "https://valepatricia16.wixsite.com/patricia-valentine",
 
-  // Add a WhatsApp number only if you are comfortable with that number being visible in your site code/link.
+  //  The number will be visible in the site code/link.
   // Use international format without +, spaces, or dashes. Example Kenya format: "254700000000".
   whatsappNumber: "254700620032",
   whatsappPrefill:
